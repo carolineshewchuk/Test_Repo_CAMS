@@ -16,7 +16,7 @@ jobs:
     inputs:
       packageType: 'sdk'
       version: '2.2.401'
-  - script: dotnet build Build/SimplCommerce.sln
+  - script: dotnet build build/SimplCommerce.sln
     displayName: 'dotnet build'
   - task: PowerShell@2
     inputs:
