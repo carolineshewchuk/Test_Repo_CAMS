@@ -27,4 +27,4 @@ jobs:
     condition: succeededOrFailed()
     inputs:
       testResultsFormat: VSTest
-      testResultsFiles: '**/*.trx' 
+      testResultsFiles: '**/*.trx'
