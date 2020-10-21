@@ -10,7 +10,7 @@ jobs:
 
 - job: Windows
   pool:
-    vmImage: 'windows-2017'
+    vmImage: 'windows-latest'
   steps:
   - task: DotNetCoreInstaller@0
     inputs:
